@@ -23,8 +23,8 @@ export default {
     customStylePropertiesOrder: ["children"],
   },
   properties: {
-    uniqueKey: {
-      label: { en: "keyProp" },
+    identifierKey: {
+      label: { en: "identifierKey" },
       type: "Text",
       defaultValue: "id",
       bindable: true,
